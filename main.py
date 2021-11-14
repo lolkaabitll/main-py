@@ -101,6 +101,5 @@ def showChosenImage():
         self.saveImage()
         image_path = os.path.join(workdir, self.save_dir, self.filename)
         self.showImage(image_path)
-lw_files.currentRowChanged.connect(showChosenImage)
-loll
+
 app.exec()
